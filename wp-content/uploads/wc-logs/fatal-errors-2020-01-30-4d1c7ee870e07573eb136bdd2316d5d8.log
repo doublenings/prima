@@ -1,0 +1,24 @@
+2020-01-30T03:14:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\wamp64\www\prima\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php:126
+Stack trace:
+#0 C:\wamp64\www\prima\wp-includes\class-wp-hook.php(288): OE_Menu_Icons_Picker::_save(61, 737, Array)
+#1 C:\wamp64\www\prima\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\prima\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\prima\wp-includes\nav-menu.php(589): do_action('wp_update_nav_m...', 61, 737, Array)
+#4 C:\wamp64\www\prima\wp-includes\nav-menu.php(1105): wp_update_nav_menu_item(61, 737, Array)
+#5 C:\wamp64\www\prima\wp-includes\class-wp-hook.php(288): _wp_auto_add_pages_to_menu('publish', 'auto-draft', Object(WP_Post))
+#6 C:\wamp64\www\prima\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#7 C:\wamp64\www\prima\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 C:\wamp64\www\prima\wp-includes\post.php(4620): do_action('transition_po in C:\wamp64\www\prima\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php on line 126
+
+2020-01-30T04:46:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\wamp64\www\prima\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php:126
+Stack trace:
+#0 C:\wamp64\www\prima\wp-includes\class-wp-hook.php(288): OE_Menu_Icons_Picker::_save(61, 778, Array)
+#1 C:\wamp64\www\prima\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\prima\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\prima\wp-includes\nav-menu.php(589): do_action('wp_update_nav_m...', 61, 778, Array)
+#4 C:\wamp64\www\prima\wp-includes\nav-menu.php(1105): wp_update_nav_menu_item(61, 778, Array)
+#5 C:\wamp64\www\prima\wp-includes\class-wp-hook.php(288): _wp_auto_add_pages_to_menu('publish', 'auto-draft', Object(WP_Post))
+#6 C:\wamp64\www\prima\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#7 C:\wamp64\www\prima\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 C:\wamp64\www\prima\wp-includes\post.php(4620): do_action('transition_po in C:\wamp64\www\prima\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php on line 126
+
